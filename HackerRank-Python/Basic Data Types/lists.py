@@ -27,12 +27,16 @@ arg = input().strip()
 
 3. Usage of getatttr(Object, Function) (Vars): Note that everything in python is an object. You can call a function using a name stored in a variable using getattr(). The Function should be present in the object. That's why we have a separate case of print() in the code using getattr() approach since print() is not an attribute of list object.
 
+4. You can initialize an empty list in two ways:
+    1. arr = list()
+    2. arr = []
+
+5. Read about list methods here: https://www.hackerrank.com/challenges/python-lists/tutorial 
 '''
 
 '''Previous Versions:
 
-Ver1.0
-
+(Ver 1.0)
 if __name__ == '__main__':
     N = int(input().strip())
     
