@@ -7,6 +7,7 @@ if __name__ == '__main__':
     print(result)
 
 '''Learning Point:
+1. Refer to all the string functions here - https://www.w3schools.com/python/python_ref_string.asp
 
 (Ver 1.0)
 
