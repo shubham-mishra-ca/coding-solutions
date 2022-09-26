@@ -12,6 +12,21 @@ Pattern
 '''
 
 def pattern5(n):
+    for i in range(1, 2*n):
+        if i <=n:
+            print("*"*i,end="")
+        else:
+            print("*"*((2*n)-i),end="")
+        print()
+
+n = int(input().strip())
+pattern5(n)
+
+
+'''
+(Ver1.0)
+
+def pattern5(n):
     #Upper diamond
     #Outer loop is for the number of rows in the pattern.
     for i in range(1,n+1):
@@ -23,8 +38,4 @@ def pattern5(n):
         for j in range(n-i):
             print("*",end="")
         print()
-
-
-
-n = int(input().strip())
-pattern5(n)
+'''
