@@ -23,7 +23,9 @@ n = int(input().strip())
 pattern5(n)
 
 
-'''
+'''Learnng Point:
+1. You can use if else logic to execute print statements that will generate *'s based on the row they are being printed on.
+
 (Ver1.0)
 
 def pattern5(n):
